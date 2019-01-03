@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailCategoryFragment">
+
+    <TextView
+        android:id="@+id/textViewCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/category_name" />
+
+    <TextView
+        android:id="@+id/textViewCategoryDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_description"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    <Button
+        android:id="@+id/buttonShowDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dialog"/>
+    <Button
+        android:id="@+id/buttoProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_profile"/>
+
+</LinearLayout>
